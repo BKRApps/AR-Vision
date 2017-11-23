@@ -13,6 +13,9 @@
 		2DEB826B1FC6F98A00B71E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEB82691FC6F98A00B71E53 /* Main.storyboard */; };
 		2DEB826D1FC6F98A00B71E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEB826C1FC6F98A00B71E53 /* Assets.xcassets */; };
 		2DEB82701FC6F98A00B71E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEB826E1FC6F98A00B71E53 /* LaunchScreen.storyboard */; };
+		2DEB82781FC6FE9900B71E53 /* ClassificationLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB82771FC6FE9900B71E53 /* ClassificationLogic.swift */; };
+		2DEB827A1FC6FF3A00B71E53 /* ClassficationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB82791FC6FF3A00B71E53 /* ClassficationError.swift */; };
+		2DEB827C1FC7077400B71E53 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB827B1FC7077400B71E53 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2DEB826C1FC6F98A00B71E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DEB826F1FC6F98A00B71E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DEB82711FC6F98A00B71E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEB82771FC6FE9900B71E53 /* ClassificationLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationLogic.swift; sourceTree = "<group>"; };
+		2DEB82791FC6FF3A00B71E53 /* ClassficationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassficationError.swift; sourceTree = "<group>"; };
+		2DEB827B1FC7077400B71E53 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				2DEB826C1FC6F98A00B71E53 /* Assets.xcassets */,
 				2DEB826E1FC6F98A00B71E53 /* LaunchScreen.storyboard */,
 				2DEB82711FC6F98A00B71E53 /* Info.plist */,
+				2DEB82771FC6FE9900B71E53 /* ClassificationLogic.swift */,
+				2DEB82791FC6FF3A00B71E53 /* ClassficationError.swift */,
+				2DEB827B1FC7077400B71E53 /* MobileNet.mlmodel */,
 			);
 			path = "AR-Vision";
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEB827A1FC6FF3A00B71E53 /* ClassficationError.swift in Sources */,
+				2DEB827C1FC7077400B71E53 /* MobileNet.mlmodel in Sources */,
+				2DEB82781FC6FE9900B71E53 /* ClassificationLogic.swift in Sources */,
 				2DEB82681FC6F98A00B71E53 /* ViewController.swift in Sources */,
 				2DEB82641FC6F98A00B71E53 /* AppDelegate.swift in Sources */,
 			);
